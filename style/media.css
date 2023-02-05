@@ -1,0 +1,107 @@
+@media(max-width:810px){
+    .header-list{
+        display: none;
+    }
+    .logo{
+        padding-left: 30px;
+    }
+    #menu-icon{
+        display: block;
+    }
+    .header-nav.open .header-list{
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: #000;
+        z-index: 1;
+        padding: 46px 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        row-gap: 40px;
+        font-size: 34px;
+        font-weight: 600;
+        transition: all .44s ease;
+    }
+    .header-btn{
+        background-color: transparent;
+    }
+    a.header-btn:hover{
+        color: #EE8313;
+    }
+    .header-wrapper{
+        display: flex;
+        flex-direction: column;
+    }
+    .header-content{
+        margin: 0;
+        margin-top: 80px;
+        text-align: center;
+    }
+    .header-title{
+        font-size: 40px;
+        margin: 0;
+    }
+    .header-paragraph{
+        font-size: 14px;
+    }
+    .header-content-bottom {
+        align-items: center;
+        justify-content: center;
+    }
+    .header-img{
+        margin: 0;
+        padding: 0;
+        padding-right: 20px;
+    }
+    .services-header{
+        text-align: center;
+    }
+    .services-box{
+        flex-direction: column;
+        text-align: center;
+    }
+    .services-card p{
+        margin-bottom: 40px;
+    }
+}
+@media(max-width:715px){
+    .header-content-bottom{
+        padding-left: 40px;
+    }
+    .footer-wrapper{
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer-logo{
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+        padding-top: 40px;
+        padding-bottom: 20px;
+    }
+    .footer-col-2 h3{
+        font-size: 16px;
+        padding-left: 10px;
+    }
+    .footer-col-2 a{
+        font-size: 14px;
+       display: block;
+       margin: 0;
+       padding: 0;
+    }
+    .footer-paragraph{
+        margin: 0;
+        padding: 0;
+    }
+    .location-img img{
+        width: 350px;
+        height: 300px;
+    }
+    .location-img{
+        text-align: center;
+    }
+}
